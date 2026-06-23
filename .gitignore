@@ -1,0 +1,27 @@
+# 编译输出
+*.o
+*.a
+*.so
+*.exe
+library_system
+library_system.exe
+*.out
+
+# 数据目录（首次运行自动生成）
+data/
+!data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志
+*.log
+
+# 临时文件
+tmp/
+*.tmp
